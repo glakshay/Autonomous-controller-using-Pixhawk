@@ -1,0 +1,19 @@
+Adding this library to simulink:
+1) Copy this folder to your computer
+2) On Matlab IDE, click on "Set Path" and add the folder's directory
+3) The library should apper on Simulink Library.
+
+Read the paper for more information.
+
+To setup X-plane open the folder selecting parameters, and run the selecting_parameters.m,  it will open a GUI to configure X-Plane Data output.
+You can also copy the block "Double Click to Set XPlane" to your model, and double click on it.
+
+
+There a situation for X-plane "cessna.sit" that can be used to start the example.Just add it to the folder "X-Plane 10\Output\situations" and open the situation on X-plane.
+In the example there's a inner loop of rol that is described on the paper "paper_control".
+
+
+
+If you are using the helicopter library, it's advisable to press the "Free X-Plane" button on the interceface after using the block. X-planes freezes the controls for the collectives, and it's necessary to free it.
+
+Contact me if needed: adrianobittar@gmail.com
